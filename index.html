@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio / Diego Delias</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+
+    
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+
+            var encabezado = document.querySelector('header');
+
+            encabezado.classList.toggle('sticky', window.scrollY > 0);
+
+        });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"> </div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#sobre-mi" onclick="toggleMenu();">Sobre mi</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#servicios" onclick="toggleMenu();">Servicios</a></li>
+            <li><a href="#trabajos" onclick="toggleMenu();">Trabajos</a></li>
+            <li><a href="#contacto" onclick="toggleMenu();">Contacto</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+
+
+        <div class="cajaTexto">
+
+            <div class="overlay">
+
+
+
+                <h2>Diego Delias</h2>
+                <h3>Diseño web y programación a medida</h3>
+
+            </div>
+
+            <a href="#sobre-mi" onclick="toggleMenu();" class="btn">Sobre mí</a>
+        </div>
+
+
+
+    </section>
+
+    <section id="sobre-mi">
+
+        <div class="encabezado">
+            <h2>Sobre mi</h2>
+
+        </div>
+
+        <div class="cont-sobre-mi">
+
+            <div class="foto-sobre-mi">
+                <figure class="borde-foto">
+                    <img src="img/sobremi4.jpg" class="redondeada" width="300" height="300" alt="">
+
+                </figure>
+
+            </div>
+
+            <div class="sobre-mi-texto-caja">
+                <h2>Diego Delias</h2>
+            </div>
+
+            <div class="sobre-mi-texto-caja">
+                <h3>Diseño y programación web</h3>
+            </div>
+
+            <div class="sobre-mi-texto-caja">
+                <p>Al momento de crear un sitio web, la programación y el desarrollo técnico son a veces la fases más complejas y críticas. Como diseñador y programador Web cuento con los con conocimientos y la experiencia necesaria para construir soluciones sólidas y robustas. Las tecnologías más comunes que utilizo para desarrollar son: HTML5 y CSS3, JavaScript, React, PHP y MySQL, entre otros.</p>
+            </div>
+
+            <div class="boton-sobremi-contenedor">
+                <a href="#contacto" onclick="toggleMenu();" class="button-sobre-mi"> Contactame </a>
+            </div>
+
+            <div class="contenedor-social">
+                <ul>
+                    <li><a href=""><i class="fab fa-github"></i></a></li>
+                    <li><a href=""><i class="fab fa-codepen"></i></a></li>
+                    <!-- <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li> -->
+                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+    <section class="skills-section" id="skills">
+        <div class="encabezado">
+            <h2>Skills</h2>
+        </div>
+        <div class="skills-container">
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="https://cdn.freebiesupply.com/logos/large/2x/html-5-logo-png-transparent.png" alt="" class="skills-icons">
+                    </div>
+                    <h3>HTML 5</h3>
+                </div>
+                <P> Maquetado y diseño usando HTML5 </P>
+            </div>
+
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" alt="" class="skills-icons">
+                    </div>
+                    <h3>CSS3</h3>
+                </div>
+                <P> Sitios estéticos y estilizados usando css3 </P>
+            </div>
+
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="https://icon-library.net/images/javascript-icon-png/javascript-icon-png-23.jpg" alt="" class="skills-icons">
+                    </div>
+                    <h3>JAVASCRIPT</h3>
+                </div>
+                <P> Sitios interactivos usando javascript </P>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="http://pluspng.com/img-png/nodejs-logo-png-nice-images-collection-node-js-desktop-wallpapers-370.png" alt="" class="skills-icons">
+                    </div>
+                    <h3>NODE.JS</h3>
+                </div>
+                <P> Desarrollo de apps usando Node.Js del lado del servidor </P>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png" alt="" class="skills-icons">
+                    </div>
+                    <h3>REACT</h3>
+                </div>
+                <P> Desarrollo de interfaces modernas usando React js </P>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="img/php.png" alt="" class="skills-icons">
+                    </div>
+                    <h3>PHP MYSQL</h3>
+                </div>
+                <P> Desarrollo de siitos y apps usando PHP y MYSQL del lado del servidor </P>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="servicios" id="servicios">
+        <div class="encabezado blanco">
+            <h2>Mis Servicios</h2>
+
+        </div>
+        <div class="contenido">
+            <div class="ServiciosCaja">
+                <h2>Diseño Web</h2>
+                <div>
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+                    </svg>
+                </div>
+                <p>Creación de interfaces para tu sitio web o app centradas en los usuarios objetivo para que sean completamente intuitivas y atractivas.</p>
+
+
+            </div>
+            <div class="ServiciosCaja">
+                <h2>Programación web</h2>
+                <div>
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                </div>
+                <p>Proyectos desarrollados a medida según los requerimientos del caso y la necesidad de los usuarios</p>
+
+
+            </div>
+            <div class="ServiciosCaja">
+                <h2>Responsive design</h2>
+                <div>
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    </svg>
+                </div>
+                <!-- <img src="/img/icon3.png" alt=""> -->
+                <p>Construcción de sitios web de forma Responsive o Mobile-First según cada proyecto, para que se adapte a todos los dispositivos del mercado.</p>
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+    <section class="proyectos" id="trabajos">
+        <div class="encabezado">
+            <h2>Algunos Proyectos </h2>
+            <p>Selección de algunos proyectos de muestra desarrollados usando diferentes tecnologías</p>
+
+        </div>
+        <div class="contenido">
+            <div class="cajaProyectos">
+                <div class="caja-foto">
+                    <img src="https://github.com/Diegodelias/Clon-Instagram-backend-nodejs-mongo-db/raw/master/fotos/2.jpg" alt="">
+                </div>
+                <div class="textCajaProyectos">
+                    <a href="https://github.com/Diegodelias/Clon-Instagram-backend-nodejs-mongo-db" target="_blank">
+                        <h3>Projecto 1</h3>
+                    </a>
+                    <h2></h2>
+
+                </div>
+            </div>
+
+            <div class="cajaProyectos">
+                <div class="caja-foto">
+                    <img src="https://github.com/Diegodelias/proyectoFinalCursoPoloticFullStackJava/raw/main/fotos/2.jpg" alt="">
+                </div>
+                <div class="textCajaProyectos">
+                    <a href="https://github.com/Diegodelias/proyectoFinalCursoPoloticFullStackJava" target="_blank">
+                        <h3>Projecto 2</h3>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="cajaProyectos">
+                <div class="caja-foto">
+                    <img src="https://github.com/Diegodelias/EjercicioBuscadorPropiedadesJavacript/raw/main/img/cuatro.jpg" alt="">
+                </div>
+                <div class="textCajaProyectos">
+                    <a href="https://github.com/Diegodelias/EjercicioBuscadorPropiedadesJavacript" target="_blank">
+                        <h3>Projecto 3</h3>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="cajaProyectos">
+                <div class="caja-foto">
+                    <img src=" https://github.com/Diegodelias/cotizadorDeEnviosJavascript/raw/main/fotos/3.jpg" alt="">
+                </div>
+                <div class="textCajaProyectos">
+                    <a href="https://github.com/Diegodelias/cotizadorDeEnviosJavascript" target="_blank">
+                        <h3>Projecto 4</h3>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="cajaProyectos">
+                <div class="caja-foto">
+                    <img src="https://github.com/Diegodelias/gestion-reservas-restaurante-javascript/raw/main/fotos/4.jpg" alt="">
+                </div>
+                <div class="textCajaProyectos">
+                    <a href="https://github.com/Diegodelias/ejercicioCarritoHtmlCssJavascript" target="_blank">
+                        <h3>Projecto 5</h3>
+                    </a>
+
+                </div>
+            </div>
+            <div class="cajaProyectos">
+
+                <div class="caja-foto">
+                    <img src="https://github.com/Diegodelias/ejercicioCarritoHtmlCssJavascript/raw/main/fotos/4.jpg" alt="">
+                </div>
+                <div class="textCajaProyectos">
+                    <a href="https://github.com/Diegodelias/gestion-reservas-restaurante-javascript" target="_blank">
+                        <h3>Projecto 6</h3>
+                    </a>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="vermas">
+
+            <a href="https://github.com/Diegodelias" class="btn" target="_blank">Ver más</a>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <section class="contacto" id="contacto">
+
+        <div class="encabezado">
+            <h2>Contacto </h2>
+            <p>Si tenés algún proyecto o idea que te pueda ayudar a desarrollar no dudes en contactarme.
+            </p>
+
+        </div>
+
+        <form class="formularioContacto" method="post" action="contacto.php">
+            <div class="fila">
+                <div class="col50">
+                    <input type="text" name="nombreU" placeholder="Nombre">
+                </div>
+                <div class="col50">
+                    <input type="text" name="apellido" placeholder="Apellido">
+                </div>
+
+            </div>
+
+            <div class="fila">
+                <div class="col50">
+                    <input type="text" name="mail" placeholder="Email">
+                </div>
+                <div class="col50">
+                    <input type="text" name="telefono" placeholder="Telefono">
+                </div>
+
+            </div>
+            <div class="fila">
+                <div class="col100">
+                    <textarea name="msg" placeholder="Mensaje"></textarea>
+
+                </div>
+
+            </div>
+            <div class="fila">
+                <div class="col100">
+                    <input type="submit" name="enviar" value="enviar">
+
+                </div>
+
+            </div>
+
+        </form>
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
